@@ -49,8 +49,8 @@
 
   <div id="loginModal" class="modal fade" role="dialog"> <!-- Modal -->
       <div class="modal-dialog modal-lg" role="content">
+        <!-- Model content -->
         <div class="modal-content">
-          <!-- Model content -->
           <div class="modal-header">
             <h4 class="modal-title">Login </h4>
             <button type="button" class="close" data-dismiss="modal">&times;</button>
@@ -80,7 +80,8 @@
               </div> <!-- End of form sign in buttons -->
             </form>
           </div> <!-- End of modal body -->
-        </div> <!-- End of modal content -->
+        </div>
+        <!-- End of modal content -->
       </div> <!-- End of modal dialog -->
   </div> <!-- End of modal -->
 
@@ -103,9 +104,54 @@
     </div>
   </header> <!-- End of jumbotron -->
 
-  <!-- Content -->
   <div class="container">
-    <div class="row row-content align-items-center"> <!-- Row for "Culinary Creatoions" -->
+
+    <div class="row row-content"> <!-- Carousel row -->
+      <div class="col"> <!-- Carousel div -->
+        <div id="mycarousel" class="carousel slide" data-ride="carousel">
+          <div class="carousel-inner" role="listbox"> <!-- Carousel content -->
+
+            <div class="carousel-item active"> <!-- Uthappizza carousel item -->
+              <img class="d-block img-fluid" src="img/uthappizza.png" alt="Uthappizza">
+              <div class="carousel-caption d-none d-md-block">
+                <h2>Uthappizza <span class="badge badge-danger">HOT</span><span class="badge badge-pill badge-default">$4.99</span></h2>
+                <p class="d-none d-sm-block">A unique combination of Indian Uthappam (pancake) and Italian pizza, topped with Cerignola olives, ripe vine cherry tomatoes, Vidalia onion, Guntur chillies and Buffalo Paneer.</p>
+              </div> <!-- End of carousel caption -->
+            </div> <!--End of uthappizza carousel item -->
+
+            <div class="carousel-item"> <!-- Promotions carousel item -->
+              <img class="d-block img-fluid" src="img/buffet.png" alt="Buffet">
+              <div class="carousel-caption d-none d-md-block">
+                <h2>Weekend Grand Buffet <span class="badge badge-danger">NEW</span></h2>
+                <p class="d-none d-sm-block">Featuring mouthwatering combinations with a choice of five different salads, six enticing appetizers, six main entrees and five choicest desserts. Free flowing bubbly and soft drinks. All for just $19.99 per person.</p>
+              </div> <!-- End of carousel caption -->
+            </div> <!-- End of promotions carousel item -->
+
+            <div class="carousel-item"> <!-- Specialists carousel item -->
+              <img class="d-block img-fluid" src="img/alberto.png" alt="Alberto">
+              <div class="carousel-caption d-none d-md-block">
+                <h2>Executive Chef</h2>
+                <p class="d-none d-sm-block">Award winning three-star Michelin chef with wide International experience having worked closely with whos-who in the culinary world, he specializes in creating mouthwatering Indo-Italian fusion experiences.</p>
+              </div> <!-- End of carousel caption -->
+            </div> <!-- End of specialists carousel item -->
+          </div> <!-- End of carousel inner -->
+
+          <!-- Carousel buttons -->
+          <ol class="carousel-indicators">
+              <li data-target="#mycarousel" data-slide-to="0" class="active"></li>
+              <li data-target="#mycarousel" data-slide-to="1"></li>
+              <li data-target="#mycarousel" data-slide-to="2"></li>
+          </ol>
+          <a class="carousel-control-prev" href="#mycarousel" role="button" data-slide="prev"><span class="carousel-control-prev-icon"></span></a>
+          <a class="carousel-control-next" href="#mycarousel" role="button" data-slide="next"><span class="carousel-control-next-icon"></span></a>
+          <!-- End of carousel buttons -->
+
+        </div> <!-- End of carousel content -->
+      </div> <!-- End of carousel div -->
+    </div> <!-- End of carousel row -->
+
+    <!-- Content -->
+    <div class="row row-content align-items-center"> <!-- Row for "Culinary Creations" -->
       <div class="col-12 col-sm-4 order-sm-last col-md-3">
         <h3>Our Lipsmacking Culinary Creations</h3>
       </div>
